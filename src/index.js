@@ -4,6 +4,6 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <App title={'Cool Book'} author={'jSweet'} body={'my post is super cool'} comments={['ya bro','goovy moovie','chyaa']}/>,
   document.getElementById('root')
 );
